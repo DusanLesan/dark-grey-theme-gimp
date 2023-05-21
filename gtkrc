@@ -664,7 +664,7 @@ style "gimp-dark-menu-item"
 					function = OPTION
 					shadow = OUT
 					recolorable = TRUE
-					overlay_file = "ui/option1.png"
+					overlay_file = "ui/check1.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -673,7 +673,7 @@ style "gimp-dark-menu-item"
 					function = OPTION
 					shadow = IN
 					recolorable = TRUE
-					overlay_file = "ui/option2.png"
+					overlay_file = "ui/check2.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -682,7 +682,7 @@ style "gimp-dark-menu-item"
 					function = OPTION
 					shadow = ETCHED_IN
 					recolorable = TRUE
-					overlay_file = "ui/option3.png"
+					overlay_file = "ui/check3.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -711,7 +711,7 @@ style "gimp-dark-menu-item"
 					function = CHECK
 					shadow = ETCHED_IN
 					recolorable = TRUE
-					overlay_file = "ui/check2.svg"
+					overlay_file = "ui/check3.svg"
 					overlay_border = { 0, 0, 0, 0 }
 					overlay_stretch = FALSE
 				}
@@ -851,7 +851,7 @@ style "gimp-dark-spin-button" = "gimp-dark-entry"
 					file = "ui/spin.png"
 					border = { 2, 2, 2, 2 }
 					stretch = TRUE
-					overlay_file = "ui/spin-up-normal.svg"
+					overlay_file = "ui/spin-up-prelight.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -1190,7 +1190,7 @@ style "gimp-dark-radio-button" = "gimp-dark-default-style"
 					function = OPTION
 					shadow = OUT
 					recolorable = TRUE
-					overlay_file = "ui/option1.png"
+					overlay_file = "ui/check1.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -1199,7 +1199,7 @@ style "gimp-dark-radio-button" = "gimp-dark-default-style"
 					function = OPTION
 					shadow = IN
 					recolorable = TRUE
-					overlay_file = "ui/option2.png"
+					overlay_file = "ui/check2.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -1208,7 +1208,7 @@ style "gimp-dark-radio-button" = "gimp-dark-default-style"
 					function = OPTION
 					shadow = ETCHED_IN
 					recolorable = TRUE
-					overlay_file = "ui/option3.png"
+					overlay_file = "ui/check3.svg"
 					overlay_stretch = FALSE
 				}
 		}
