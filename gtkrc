@@ -207,7 +207,7 @@ style "gimp-dark-default-style"
 				{
 					function = ARROW
 					recolorable = TRUE
-					overlay_file = "ui/gimp-arrow-up.png"
+					overlay_file = "ui/gimp-arrow-up.svg"
 					overlay_border = { 0, 0, 0, 0 }
 					overlay_stretch = FALSE
 					arrow_direction = UP
@@ -217,7 +217,7 @@ style "gimp-dark-default-style"
 				{
 					function = ARROW
 					recolorable = TRUE
-					overlay_file = "ui/gimp-arrow-down.png"
+					overlay_file = "ui/gimp-arrow-down.svg"
 					overlay_border = { 0, 0, 0, 0 }
 					overlay_stretch = FALSE
 					arrow_direction = DOWN
@@ -227,7 +227,7 @@ style "gimp-dark-default-style"
 				{
 					function = ARROW
 					recolorable = TRUE
-					overlay_file = "ui/gimp-arrow-left.png"
+					overlay_file = "ui/gimp-arrow-left.svg"
 					overlay_border = { 0, 0, 0, 0 }
 					overlay_stretch = FALSE
 					arrow_direction = LEFT
@@ -237,7 +237,7 @@ style "gimp-dark-default-style"
 				{
 					function = ARROW
 					recolorable = TRUE
-					overlay_file = "ui/gimp-arrow-right.png"
+					overlay_file = "ui/gimp-arrow-right.svg"
 					overlay_border = { 0, 0, 0, 0 }
 					overlay_stretch = FALSE
 					arrow_direction = RIGHT
@@ -691,7 +691,7 @@ style "gimp-dark-menu-item"
 					function = CHECK
 					shadow = OUT
 					recolorable = TRUE
-					overlay_file = "ui/check1.png"
+					overlay_file = "ui/check1.svg"
 					overlay_border = { 0, 0, 0, 0 }
 					overlay_stretch = FALSE
 				}
@@ -701,7 +701,7 @@ style "gimp-dark-menu-item"
 					function = CHECK
 					shadow = IN
 					recolorable = TRUE
-					overlay_file = "ui/check2.png"
+					overlay_file = "ui/check2.svg"
 					overlay_border = { 0, 0, 0, 0 }
 					overlay_stretch = FALSE
 				}
@@ -711,7 +711,7 @@ style "gimp-dark-menu-item"
 					function = CHECK
 					shadow = ETCHED_IN
 					recolorable = TRUE
-					overlay_file = "ui/check3.png"
+					overlay_file = "ui/check2.svg"
 					overlay_border = { 0, 0, 0, 0 }
 					overlay_stretch = FALSE
 				}
@@ -749,7 +749,7 @@ style "gimp-dark-item"
 					function = ARROW
 					recolorable = TRUE
 					state = PRELIGHT
-					overlay_file = "ui/gimp-arrow-right.png"
+					overlay_file = "ui/gimp-arrow-right.svg"
 					overlay_stretch = FALSE
 					arrow_direction = RIGHT
 				}
@@ -759,7 +759,7 @@ style "gimp-dark-item"
 					function = ARROW
 					state = NORMAL
 					recolorable = TRUE
-					overlay_file = "ui/gimp-arrow-right-dark.png"
+					overlay_file = "ui/gimp-arrow-right-dark.svg"
 					overlay_stretch = FALSE
 					arrow_direction = RIGHT
 				}
@@ -838,7 +838,7 @@ style "gimp-dark-spin-button" = "gimp-dark-entry"
 					file = "ui/spin.png"
 					border = { 2, 2, 2, 2 }
 					stretch = TRUE
-					overlay_file = "ui/spin-up-normal.png"
+					overlay_file = "ui/spin-up-normal.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -851,7 +851,7 @@ style "gimp-dark-spin-button" = "gimp-dark-entry"
 					file = "ui/spin.png"
 					border = { 2, 2, 2, 2 }
 					stretch = TRUE
-					overlay_file = "ui/spin-up-normal.png"
+					overlay_file = "ui/spin-up-normal.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -864,7 +864,7 @@ style "gimp-dark-spin-button" = "gimp-dark-entry"
 					file = "ui/spin.png"
 					border = { 2, 2, 2, 2 }
 					stretch = TRUE
-					overlay_file = "ui/spin-up-pressed.png"
+					overlay_file = "ui/spin-up-normal.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -877,7 +877,7 @@ style "gimp-dark-spin-button" = "gimp-dark-entry"
 					file = "ui/spin-insensitive.png"
 					border = { 2, 2, 2, 2 }
 					stretch = TRUE
-					overlay_file = "ui/spin-up-insensitive.png"
+					overlay_file = "ui/spin-up-insensitive.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -890,7 +890,7 @@ style "gimp-dark-spin-button" = "gimp-dark-entry"
 					file = "ui/spin.png"
 					border = { 2, 2, 2, 2 }
 					stretch = TRUE
-					overlay_file = "ui/spin-down-normal.png"
+					overlay_file = "ui/spin-down-normal.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -903,7 +903,7 @@ style "gimp-dark-spin-button" = "gimp-dark-entry"
 					file = "ui/spin.png"
 					border = { 2, 2, 2, 2 }
 					stretch = TRUE
-					overlay_file = "ui/spin-down-normal.png"
+					overlay_file = "ui/spin-down-prelight.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -916,7 +916,7 @@ style "gimp-dark-spin-button" = "gimp-dark-entry"
 					file = "ui/spin.png"
 					border = { 2, 2, 2, 2 }
 					stretch = TRUE
-					overlay_file = "ui/spin-down-pressed.png"
+					overlay_file = "ui/spin-down-normal.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -929,7 +929,7 @@ style "gimp-dark-spin-button" = "gimp-dark-entry"
 					file = "ui/spin-insensitive.png"
 					border = { 2, 2, 2, 2 }
 					stretch = TRUE
-					overlay_file = "ui/spin-down-insensitive.png"
+					overlay_file = "ui/spin-down-insensitive.svg"
 					overlay_stretch = FALSE
 				}
 		}
@@ -1227,7 +1227,7 @@ style "gimp-dark-check-button" = "gimp-dark-default-style"
 					function = CHECK
 					shadow = OUT
 					recolorable = TRUE
-					overlay_file = "ui/check1.png"
+					overlay_file = "ui/check1.svg"
 					overlay_border = { 0, 0, 0, 0 }
 					overlay_stretch = FALSE
 				}
@@ -1237,7 +1237,7 @@ style "gimp-dark-check-button" = "gimp-dark-default-style"
 					function = CHECK
 					shadow = IN
 					recolorable = TRUE
-					overlay_file = "ui/check2.png"
+					overlay_file = "ui/check2.svg"
 					overlay_border = { 0, 0, 0, 0 }
 					overlay_stretch = FALSE
 				}
@@ -1247,7 +1247,7 @@ style "gimp-dark-check-button" = "gimp-dark-default-style"
 					function = CHECK
 					shadow = ETCHED_IN
 					recolorable = TRUE
-					overlay_file = "ui/check3.png"
+					overlay_file = "ui/check2.svg"
 					overlay_border = { 0, 0, 0, 0 }
 					overlay_stretch = FALSE
 				}
@@ -1648,7 +1648,7 @@ style "gimp-dark-spin-scale-style"
 					function = BOX
 					state = NORMAL
 					detail = "spinbutton_up"
-					overlay_file = "ui/arrow-up-small.png"
+					overlay_file = "ui/spin-up-normal.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -1657,7 +1657,7 @@ style "gimp-dark-spin-scale-style"
 					function = BOX
 					state = PRELIGHT
 					detail = "spinbutton_up"
-					overlay_file = "ui/arrow-up-small-prelight.png"
+					overlay_file = "ui/spin-up-prelight.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -1666,7 +1666,7 @@ style "gimp-dark-spin-scale-style"
 					function = BOX
 					state = ACTIVE
 					detail = "spinbutton_up"
-					overlay_file = "ui/arrow-up-small-prelight.png"
+					overlay_file = "ui/spin-up-normal.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -1675,7 +1675,7 @@ style "gimp-dark-spin-scale-style"
 					function = BOX
 					state = INSENSITIVE
 					detail = "spinbutton_up"
-					overlay_file = "ui/arrow-up-small-insens.png"
+					overlay_file = "ui/spin-up-insensitive.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -1684,7 +1684,7 @@ style "gimp-dark-spin-scale-style"
 					function = BOX
 					state = NORMAL
 					detail = "spinbutton_down"
-					overlay_file = "ui/arrow-down-small.png"
+					overlay_file = "ui/spin-down-normal.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -1693,7 +1693,7 @@ style "gimp-dark-spin-scale-style"
 					function = BOX
 					state = PRELIGHT
 					detail = "spinbutton_down"
-					overlay_file = "ui/arrow-down-small.png"
+					overlay_file = "ui/spin-down-prelight.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -1702,7 +1702,7 @@ style "gimp-dark-spin-scale-style"
 					function = BOX
 					state = ACTIVE
 					detail = "spinbutton_down"
-					overlay_file = "ui/arrow-down-small.png"
+					overlay_file = "ui/spin-down-normal.svg"
 					overlay_stretch = FALSE
 				}
 
@@ -1711,7 +1711,7 @@ style "gimp-dark-spin-scale-style"
 					function = BOX
 					state = INSENSITIVE
 					detail = "spinbutton_down"
-					overlay_file = "ui/arrow-down-small-insens.png"
+					overlay_file = "ui/spin-down-insensitive.svg"
 					overlay_stretch = FALSE
 				}
 		}
